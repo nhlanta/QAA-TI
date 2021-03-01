@@ -1,0 +1,13 @@
+C:\Users\Nataliia.Khlanta\source\repos\Area\Area\bin\Debug\netcoreapp3.1\Area.exe
+C:\Users\Nataliia.Khlanta\source\repos\Area\Area\bin\Debug\netcoreapp3.1\Area.deps.json
+C:\Users\Nataliia.Khlanta\source\repos\Area\Area\bin\Debug\netcoreapp3.1\Area.runtimeconfig.json
+C:\Users\Nataliia.Khlanta\source\repos\Area\Area\bin\Debug\netcoreapp3.1\Area.runtimeconfig.dev.json
+C:\Users\Nataliia.Khlanta\source\repos\Area\Area\bin\Debug\netcoreapp3.1\Area.dll
+C:\Users\Nataliia.Khlanta\source\repos\Area\Area\bin\Debug\netcoreapp3.1\Area.pdb
+C:\Users\Nataliia.Khlanta\source\repos\Area\Area\obj\Debug\netcoreapp3.1\Area.csprojAssemblyReference.cache
+C:\Users\Nataliia.Khlanta\source\repos\Area\Area\obj\Debug\netcoreapp3.1\Area.AssemblyInfoInputs.cache
+C:\Users\Nataliia.Khlanta\source\repos\Area\Area\obj\Debug\netcoreapp3.1\Area.AssemblyInfo.cs
+C:\Users\Nataliia.Khlanta\source\repos\Area\Area\obj\Debug\netcoreapp3.1\Area.csproj.CoreCompileInputs.cache
+C:\Users\Nataliia.Khlanta\source\repos\Area\Area\obj\Debug\netcoreapp3.1\Area.dll
+C:\Users\Nataliia.Khlanta\source\repos\Area\Area\obj\Debug\netcoreapp3.1\Area.pdb
+C:\Users\Nataliia.Khlanta\source\repos\Area\Area\obj\Debug\netcoreapp3.1\Area.genruntimeconfig.cache
