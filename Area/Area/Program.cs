@@ -18,7 +18,6 @@ namespace Area
 			bool isCorrectSide;
 			bool isCorrectRadius;
 
-
 			do
 			{
 				Console.Write("Please enter numeric value for a square side and click Enter: ");
@@ -39,19 +38,16 @@ namespace Area
 			Square square = new Square(side);
 			squareArea = square.GetArea();
 
-			Console.WriteLine("Square area is: {0:F2}", squareArea);
+			Console.WriteLine("\nSquare area is: {0:F2}", squareArea);
 
 			attempt = 0;
 			do
 			{
-
 				Console.Write("\nPlease enter numeric value for a circle radius and click Enter: ");
 				userInput = Console.ReadLine();
 				isCorrectRadius = Double.TryParse(userInput, out radius);
 
-
 				attempt++;
-
 			}
 			while (attempt < 3 && !isCorrectRadius);
 
@@ -65,10 +61,30 @@ namespace Area
 			Circle circle = new Circle(radius);
 			circleArea = circle.GetArea();
 
-			Console.WriteLine("Circle area is: {0:F2}", circleArea);
+			Console.WriteLine("\nCircle area is: {0:F2}", circleArea);
+
+			double squaredCircleRadius = SquaredCircle(side);
+			double circledSquareRadius = CircledSquare(side);
+
+			if (squaredCircleRadius >= radius)
+			{
+				Console.WriteLine("\nCircle fits square. It can be inscribed into this square ");
+			}
+			else
+			{
+				Console.WriteLine("\nCircle doesn't fit square. It cannot be inscribed into square.");
+			}
+
+			if (circledSquareRadius <= radius)
+			{
+				Console.WriteLine("Square fits circle. It can be inscribed into this circle");
+			}
+			else
+			{
+				Console.WriteLine("Square doesn't fit circle. It cannot be inscribed into the circle.");
+
+			}
 		}
-
-
 		static double GetRandomValue(double minimum, double maximum)
 		{
 			{
@@ -76,6 +92,17 @@ namespace Area
 				double randomValue = random.NextDouble() * (maximum - minimum) + minimum;
 				return randomValue;
 			}
+		}
+		static double SquaredCircle(double squareSide)
+		{
+			double rad = squareSide / 2;
+			return rad;
+		}
+		static double CircledSquare(double squareSide)
+		{
+			double rad = squareSide / Math.Sqrt(2);
+			return rad;
+
 		}
 	}
 }
