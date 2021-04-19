@@ -4,14 +4,13 @@ namespace Area
 {
 	class Program
 	{
+		const double min = 0.5;
+		const double max = 5.0;
 		static void Main(string[] args)
-
 		{
 			int attempt = 0;
 			string userInput;
 			double side;
-			double min = 0.5;
-			double max = 5.0;
 			double squareArea;
 			double radius;
 			double circleArea;
@@ -87,21 +86,20 @@ namespace Area
 		}
 		static double GetRandomValue(double minimum, double maximum)
 		{
-			{
 				Random random = new Random();
 				double randomValue = random.NextDouble() * (maximum - minimum) + minimum;
 				return randomValue;
-			}
 		}
+
 		static double SquaredCircle(double squareSide)
 		{
 			double rad = squareSide / 2;
 			return rad;
 		}
+
 		static double CircledSquare(double squareSide)
 		{
-			double rad = squareSide / Math.Sqrt(2);
-			return rad;
+			return squareSide / Math.Sqrt(2);
 
 		}
 	}
